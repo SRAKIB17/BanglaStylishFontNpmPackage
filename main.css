@@ -1,1 +1,61 @@
-@import "./regular.css"
+@import './css/regular.css';
+
+.AmarBangla {
+    font-family: AmarBangla;
+}
+
+.AnekBangla {
+    font-family: AnekBangla;
+}
+
+.AponaLohit {
+    font-family: AponaLohit;
+}
+
+.Bangla {
+    font-family: Bangla;
+}
+
+.Ekushey {
+    font-family: Ekushey;
+}
+
+.HindSiliguri {
+    font-family: HindSiliguri;
+}
+
+.Kalpurush {
+    font-family: Kalpurush;
+}
+
+.KongshoMJ {
+    font-family: KongshoMJ;
+}
+
+.Korotoa {
+    font-family: Korotoa;
+}
+
+.LalSabuj {
+    font-family: LalSabuj;
+}
+
+.LiAdorNoirrit {
+    font-family: LiAdorNoirrit;
+}
+
+.Mitra {
+    font-family: Mitra;
+}
+
+.SiyamRupali {
+    font-family: SiyamRupali;
+}
+
+.SolaimanLipi {
+    font-family: SolaimanLipi;
+}
+
+.TiroBangla {
+    font-family: TiroBangla;
+}
