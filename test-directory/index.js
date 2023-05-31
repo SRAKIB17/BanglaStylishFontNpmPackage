@@ -10,8 +10,8 @@ for (const i of x) {
     font-family: '${i.split('.')[0]}';
     font-style: normal;
     font-weight: 400;
-    src: url('./lib/regular/${i}');
-    src: url('./lib/regular/${i}') format('otf'), url('./lib/regular/${i}') format('opentype');
+    src: url('lib/regular/${i}');
+    src: url('lib/regular/${i}') format('otf'), url('lib/regular/${i}') format('opentype');
 }
     `
 
@@ -30,17 +30,17 @@ for (const i of x) {
 
 }
 
-fs.writeFile('../regular.css', font, { flag: 'w+' }, function (err) {
+fs.writeFile('../css/regular.css', font, { flag: 'w+' }, function (err) {
     console.log(err)
 })
 
-fs.writeFile('../main.css', mainClass, { flag: 'w+' }, function (err) {
-    console.log(err)
-})
+// fs.writeFile('../main.css', mainClass, { flag: 'w+' }, function (err) {
+//     console.log(err)
+// })
 
-fs.writeFile('../fonts/regular.js', JSON.stringify(fontsArr), { flag: 'w+' }, function (err) {
-    console.log(err)
-})
+// fs.writeFile('../fonts/regular.js', JSON.stringify(fontsArr), { flag: 'w+' }, function (err) {
+//     console.log(err)
+// })
 
 // fs.writeFile('../fonts.js', JSON.stringify(fontsArr), { flag: 'w+' }, function (err) {
 //     console.log(err)
