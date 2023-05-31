@@ -2,6 +2,8 @@ import fs from 'fs'
 const x = fs.readdirSync('../lib/regular')
 let font = ''
 let js = ''
+let mainClass = ''
+let fontsArr = []
 for (const i of x) {
     font += `
     @font-face {
@@ -13,13 +15,33 @@ for (const i of x) {
 }
     `
 
+
+    mainClass += `
+.${i.split('.')[0]}{
+    font-family: ${i.split('.')[0]};
+}
+    `
+
+
     js += `export const ${i.split('.')[0]} = "${i.split('.')[0]}"
     `
+    fontsArr.push(i.split('.')[0])
+
+
 }
-fs.writeFile('regular.css', font, { flag: 'w+' }, function (err) {
+
+fs.writeFile('../regular.css', font, { flag: 'w+' }, function (err) {
     console.log(err)
 })
 
-fs.writeFile('regular.js', js, { flag: 'w+' }, function (err) {
+fs.writeFile('../main.css', mainClass, { flag: 'w+' }, function (err) {
     console.log(err)
 })
+
+fs.writeFile('../fonts/regular.js', JSON.stringify(fontsArr), { flag: 'w+' }, function (err) {
+    console.log(err)
+})
+
+// fs.writeFile('../fonts.js', JSON.stringify(fontsArr), { flag: 'w+' }, function (err) {
+//     console.log(err)
+// })
