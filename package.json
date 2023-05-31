@@ -20,7 +20,6 @@
     "stylish"
   ],
   "files": [
-    "css/*.css",
     "fonts/*.js",
     "lib/regular/*.ttf"
   ],
