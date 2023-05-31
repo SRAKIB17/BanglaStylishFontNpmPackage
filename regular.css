@@ -1,0 +1,121 @@
+
+    @font-face {
+    font-family: 'AmarBangla';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/AmarBangla.ttf');
+    src: url('./lib/regular/AmarBangla.ttf') format('otf'), url('./lib/regular/AmarBangla.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'AnekBangla';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/AnekBangla.ttf');
+    src: url('./lib/regular/AnekBangla.ttf') format('otf'), url('./lib/regular/AnekBangla.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'AponaLohit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/AponaLohit.ttf');
+    src: url('./lib/regular/AponaLohit.ttf') format('otf'), url('./lib/regular/AponaLohit.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'Bangla';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/Bangla.ttf');
+    src: url('./lib/regular/Bangla.ttf') format('otf'), url('./lib/regular/Bangla.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'Ekushey';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/Ekushey.ttf');
+    src: url('./lib/regular/Ekushey.ttf') format('otf'), url('./lib/regular/Ekushey.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'HindSiliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/HindSiliguri.ttf');
+    src: url('./lib/regular/HindSiliguri.ttf') format('otf'), url('./lib/regular/HindSiliguri.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'Kalpurush';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/Kalpurush.ttf');
+    src: url('./lib/regular/Kalpurush.ttf') format('otf'), url('./lib/regular/Kalpurush.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'KongshoMJ';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/KongshoMJ.ttf');
+    src: url('./lib/regular/KongshoMJ.ttf') format('otf'), url('./lib/regular/KongshoMJ.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'Korotoa';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/Korotoa.ttf');
+    src: url('./lib/regular/Korotoa.ttf') format('otf'), url('./lib/regular/Korotoa.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'LalSabuj';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/LalSabuj.ttf');
+    src: url('./lib/regular/LalSabuj.ttf') format('otf'), url('./lib/regular/LalSabuj.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'LiAdorNoirrit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/LiAdorNoirrit.ttf');
+    src: url('./lib/regular/LiAdorNoirrit.ttf') format('otf'), url('./lib/regular/LiAdorNoirrit.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'Mitra';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/Mitra.ttf');
+    src: url('./lib/regular/Mitra.ttf') format('otf'), url('./lib/regular/Mitra.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'SiyamRupali';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/SiyamRupali.ttf');
+    src: url('./lib/regular/SiyamRupali.ttf') format('otf'), url('./lib/regular/SiyamRupali.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'SolaimanLipi';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/SolaimanLipi.ttf');
+    src: url('./lib/regular/SolaimanLipi.ttf') format('otf'), url('./lib/regular/SolaimanLipi.ttf') format('opentype');
+}
+    
+    @font-face {
+    font-family: 'TiroBangla';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./lib/regular/TiroBangla.ttf');
+    src: url('./lib/regular/TiroBangla.ttf') format('otf'), url('./lib/regular/TiroBangla.ttf') format('opentype');
+}
+    
